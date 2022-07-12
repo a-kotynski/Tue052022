@@ -21,7 +21,7 @@ namespace Tue052022
     {
         private readonly string imie;
         private readonly string nazwisko;
-        public Kontrakt kontrakt;
+        public Kontrakt kontrakt; // composition?
         public Pracownik(string i, string n)
         {
             imie = i;
